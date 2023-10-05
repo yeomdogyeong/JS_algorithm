@@ -6,7 +6,7 @@ function solution(rank, attendance) {
           arr.push(i)
       }
   }
-  const result = arr.map(i => rank[i]).sort().slice(0,3)
+  const result = arr.map(i => rank[i]).sort((a,b) => a - b).slice(0,3)
   
     
   const answer = result.map(el => rank.indexOf(el))
