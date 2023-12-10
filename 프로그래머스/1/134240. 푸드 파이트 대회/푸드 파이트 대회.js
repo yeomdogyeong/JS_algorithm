@@ -1,7 +1,7 @@
 function solution(food) {
     let arr = []
     let answer = ''
-  for(let i = 1; i<food.length; i++){
+  for(let i = 0; i<food.length; i++){
    let mok = Math.floor(food[i] / 2)
    console.log(mok)
       for(let j = 0; j<mok; j++){
