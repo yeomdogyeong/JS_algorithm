@@ -2,6 +2,7 @@ function solution(n, m) {
 
    const CalMax = (i,j) => {
      if(j === 0) return i;
+    console.log(i,j)
        return CalMax(j, i % j)
    }
 
