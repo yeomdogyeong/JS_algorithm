@@ -1,10 +1,17 @@
-function solution(phone_book) {
-    phone_book.sort()
+    function solution(phoneBook) {
+    const table = {};
 
-    const isPrefix = phone_book.some((book,idx)=>{
-        //?를 써서 오류 대신 undefined를 반환
-        return phone_book[idx+1]?.indexOf(book) === 0
-    })
+    for (const number of phoneBook) {
+     table[number] = true;
+    };
 
-    return !isPrefix
-}   
+    for (const number of phoneBook) {
+        for (let i = 1; i < number.length; i++) {
+          
+          const prefix = number.slice(0, i);
+
+            if (table[prefix]) return false};
+     };
+
+        return true;
+    }
