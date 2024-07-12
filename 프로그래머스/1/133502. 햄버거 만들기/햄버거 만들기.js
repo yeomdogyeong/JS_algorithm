@@ -8,7 +8,7 @@ function solution(ingredient) {
      if(stack.slice(-4).join('') === '1231'){
          //stack의 뒤에서부터 4개씩 자른 새로운 배열을 생성
          stack.splice(stack.length-4,4)
-         answer++
+          answer++
      }
  })
    
