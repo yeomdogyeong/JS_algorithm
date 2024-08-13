@@ -6,5 +6,5 @@ function solution(a, b, n) {
         total += coke
         n = coke + (n % a)
     }
-    return total
+     return total
 }
