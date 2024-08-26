@@ -5,6 +5,6 @@ function solution(a, b, n) {
         let coke = Math.floor( n / a) * b
         total += coke
         n = coke + (n % a)
-    }
+     }
      return total
 }
