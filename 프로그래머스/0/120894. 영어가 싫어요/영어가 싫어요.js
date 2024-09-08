@@ -8,7 +8,7 @@ function solution(numbers) {
               result += object[key]
               numbers = numbers.substring(key.length)
           }
-      }
+      } 
   }
   return parseInt(result)
    
