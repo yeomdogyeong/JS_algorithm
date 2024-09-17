@@ -1,7 +1,7 @@
 function solution(participant, completion) {
     //완주하지못한 선수 return
     //participant에 있고, completion에 없는값
-    //참가자 중에는 동명이인이 있을수있음
+    //참가자 중에는 동명이인이 있을수있음 
     
     const map = new Map()
 
