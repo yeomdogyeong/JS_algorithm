@@ -4,7 +4,7 @@ function solution(babbling) {
        if(babbling[i].replace('aya',' ').replace('ye',' ').replace('woo',' ').replace('ma',' ').trim() === ''){
            answer ++
        }
-   }
+   } 
     
     return answer;
 }
