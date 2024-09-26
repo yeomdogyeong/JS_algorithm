@@ -7,7 +7,7 @@ function solution(food) {
       for(let j = 0; j<mok; j++){
           arr.push(i)
       }
-  }
+  } 
     let string = arr.join('')
    let rev = arr.reverse().join('')
 
