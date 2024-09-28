@@ -5,6 +5,6 @@ function solution(babbling) {
            answer ++
        }
    } 
-    
+     
     return answer;
 }
