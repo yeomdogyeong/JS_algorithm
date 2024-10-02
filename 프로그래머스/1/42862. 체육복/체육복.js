@@ -10,7 +10,7 @@ function solution(n, lost, reserve) {
      if (reserve.includes(lost[i]-1)) {
             reserve.splice(reserve.indexOf(lost[i]-1), 1); 
             lost.splice(i,1); 
-            i -= 1 
+            i -= 1  
         } else if (reserve.includes(lost[i]+1)) {
             reserve.splice(reserve.indexOf(lost[i]+1), 1); 
             lost.splice(i,1); 
