@@ -5,7 +5,8 @@ function solution(survey, choices) {
     personality.join('').split('').forEach((type) => {
     obj.set(type, 0);
 });
-    //4이상이면 2번째꺼, foreach?
+console.log(obj)
+    //4이상이면 2번째꺼, foreach
    survey.forEach((item) => {
         obj.set(item[0], 0);
         obj.set(item[1], 0);
