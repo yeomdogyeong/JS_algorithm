@@ -9,7 +9,7 @@ function solution(s) {
           }else {
               newWord += word[i][j].toLowerCase()
           }
-      }
+      } 
       word[i] = newWord
   }
     return word.join(' ')
