@@ -7,7 +7,7 @@ function solution(name, yearning, photo) {
         if(index !== -1){
             answer += yearning[index]
         }
-    }
+    } 
       result.push(answer)
   }
     return result
