@@ -5,7 +5,7 @@ function solution(sizes) {
     
     let first = 0;
     let second = 0;
-    
+     
     for(let i = 0 ; i<sortedSizes.length; i++){
     if(sortedSizes[i][0] > first){
         first = sortedSizes[i][0] 
