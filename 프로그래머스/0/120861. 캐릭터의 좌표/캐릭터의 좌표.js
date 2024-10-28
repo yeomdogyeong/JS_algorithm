@@ -10,7 +10,7 @@ function solution(keyinput, board) {
         } else if (keyinput[i] === 'right' && answer[0] < maxX) {
             answer[0]++;
         } else if (keyinput[i] === 'up' && answer[1] < maxY) {
-            answer[1]++;
+            answer[1]++; 
         } else if (keyinput[i] === 'down' && answer[1] > -maxY) {
             answer[1]--;
         }
