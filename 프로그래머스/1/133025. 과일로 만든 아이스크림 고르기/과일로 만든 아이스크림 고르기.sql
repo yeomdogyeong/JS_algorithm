@@ -1,0 +1,6 @@
+-- 코드를 입력하세요
+SELECT FH.FLAVOR FROM FIRST_HALF as FH, ICECREAM_INFO as II
+WHERE FH.FLAVOR = II.FLAVOR AND FH.TOTAL_ORDER > 3000 AND II.INGREDIENT_TYPE = 'fruit_based'
+# 특정 필터 조건을 내림차순으로 설정 (큰 순서대로)
+# ASC는 오름차순
+ORDER BY TOTAL_ORDER desc
