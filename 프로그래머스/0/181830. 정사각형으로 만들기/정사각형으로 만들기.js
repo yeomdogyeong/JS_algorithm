@@ -9,7 +9,7 @@ function solution(arr) {
             const someArr = new Array(hang).fill(0);
             arr.push(someArr)
         }
-    }else{
+    }else{ 
        for (let i = 0; i < arr.length; i++) { 
             for(let j = 0; j<yeul-hang; j++){
                  arr[i].push(0)
