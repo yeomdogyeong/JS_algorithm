@@ -12,7 +12,6 @@ function solution(N, stages) {
         }
         hash[stage]++;
     }
-    console.log(hash)
     
     let nanugi = []
     let successNumber = stages.length
