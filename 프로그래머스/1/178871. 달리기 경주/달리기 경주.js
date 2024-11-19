@@ -3,7 +3,7 @@ function solution(players, callings) {
     for(let i =0; i<players.length; i++){
 
         playersObj[players[i]] = i;
-    }
+    } 
   
     for(let i=0; i< callings.length; i++){
         let index = playersObj[callings[i]]
