@@ -7,6 +7,6 @@ function solution(quiz) {
         
         return +x + (+y * flminus) === +result ? 'O' : 'X'
     }
-          
+           
                    )
 }
