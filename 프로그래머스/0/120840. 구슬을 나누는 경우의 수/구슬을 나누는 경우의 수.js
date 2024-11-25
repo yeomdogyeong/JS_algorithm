@@ -5,7 +5,7 @@ function mango(props) {
     }
     return answer;
 }
-
+ 
 function solution(balls, share) {
     // n = balls , m = share
     const n = balls;
