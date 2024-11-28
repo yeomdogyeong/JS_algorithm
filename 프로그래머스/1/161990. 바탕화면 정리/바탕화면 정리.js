@@ -11,6 +11,6 @@
             }
         }
     }
-
+ 
     return [minX, minY, maxX + 1, maxY + 1];
 }
