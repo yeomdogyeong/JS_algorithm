@@ -7,7 +7,7 @@ function solution(participant, completion) {
 
     participant.forEach((element)=> {
         //동명이인이 있으면 value + 1
-        if(map.has(element)){
+        if(map.has(element)){ 
             map.set(element, map.get(element)+1)
         }else{
             map.set(element,1)
