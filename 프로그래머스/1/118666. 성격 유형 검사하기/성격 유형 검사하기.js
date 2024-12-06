@@ -11,7 +11,7 @@ console.log(obj)
         obj.set(item[0], 0);
         obj.set(item[1], 0);
     });
-
+ 
     choices.forEach((el, index) => {
         if (el > 4) {
             obj.set(survey[index][1], obj.get(survey[index][1]) + el - 4);
